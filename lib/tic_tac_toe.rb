@@ -18,9 +18,7 @@ end
  def input_to_index(input)
   input = input.to_i
   if input.between?(1,9)
-    input -= 1
-  else
-    input = -1
+  index = - 1
   end
 end
  def move(board, index, current_player)
