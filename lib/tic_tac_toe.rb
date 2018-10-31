@@ -25,7 +25,7 @@ end
   end
 end
  def move(board, index, current_player)
-  
+binding.pry
   board[index] = current_player(board)
 end
  def position_taken?(board, index)
